@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="theme-toggle">
+            <button id="themeToggle">🌙</button>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="rap.html">Rap</a></li>
+                <li><a href="pop.html">Pop</a></li>
+                <li><a href="rnb.html">R&B</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="genre">
+        <h2>Rock</h2>
+        <div class="genre-description-container">
+            <div class="genre-box">
+                <p class="genre-description">
+                    O rock é um género enérgico e diverso que nasceu da fusão do blues, country e música folk na década de 1950. 
+                    Reconhecido pelas guitarras elétricas, linhas de baixo marcantes e baterias poderosas, o rock evoluiu para incluir 
+                    subgéneros como punk, metal, indie e alternativo. É um género que canaliza emoção, rebeldia e criatividade, explorando 
+                    temas que vão desde o amor e introspeção até questões sociais e políticas. O rock continua a ser uma plataforma de 
+                    experimentação e autoexpressão.
+                </p>
+            </div>
+        </div>
+        <div class="album-display">
+            <div class="album-info">
+                <h3 id="album-title">Clique em um álbum para ver mais detalhes</h3>
+                <p id="album-description"></p>
+            </div>
+        </div>
+        <div class="album-grid">
+            <div class="album" data-description="Currents - Tame Impala: 'Currents' é uma obra-prima do rock psicadélico moderno, com Kevin Parker a explorar temas de mudança, crescimento e amor através de uma produção brilhante e experimental. O álbum mistura sintetizadores pulsantes, guitarras etéreas e batidas cativantes, criando um som inovador. Faixas como 'Let It Happen' e 'The Less I Know the Better' são hinos introspectivos que capturam a essência de um momento transformador.">
+                <img src="impala.jpg" alt="Currents">
+                <p>Currents - Tame Impala</p>
+            </div>
+            <div class="album" data-description="Ants From Up There - Black Country, New Road: Este álbum é uma fusão orquestral de rock experimental e pós-punk, com a banda a abordar temas de perda, identidade e a fragilidade da vida. Com arranjos ricos e emotivos, faixas como 'Concorde' e 'The Place Where He Inserted the Blade' mostram a profundidade lírica e a complexidade sonora do grupo. É um álbum que desafia convenções e recompensa a atenção cuidadosa.">
+                <img src="ants from.jpg" alt="Ants From Up There">
+                <p>Ants From Up There - Black Country, New Road</p>
+            </div>
+            <div class="album" data-description="But Here We Are - Foo Fighters: 'But Here We Are' é um álbum carregado de emoção, com os Foo Fighters a canalizarem a dor e a resiliência através do seu som característico de rock alternativo. Escrito após perdas pessoais significativas, o álbum é uma homenagem à conexão humana e à força de seguir em frente. Faixas como 'Rescue Me' capturam a intensidade e a sinceridade da banda.">
+                <img src="foo.jpg" alt="But Here We Are">
+                <p>But Here We Are - Foo Fighters</p>
+            </div>
+            <div class="album" data-description="Skeleton Tree - Nick Cave & The Bad Seeds: 'Skeleton Tree' é um álbum devastador e profundamente comovente, marcado pela dor e pela perda. Nick Cave explora temas de mortalidade e amor num tom minimalista e sombrio, com arranjos musicais atmosféricos que ampliam a vulnerabilidade das suas letras. Faixas como 'I Need You' e 'Distant Sky' são meditativas e incrivelmente tocantes.">
+                <img src="Nick_Cave_and_The_Bad_Seeds_-_Skeleton_Tree.jpg" alt="Skeleton Tree">
+                <p>Skeleton Tree - Nick Cave & The Bad Seeds</p>
+            </div>
+            <div class="album" data-description="Blackstar - David Bowie: Lançado pouco antes da sua morte, 'Blackstar' é um álbum enigmático e experimental que mistura art rock, jazz e música eletrónica. Bowie reflete sobre mortalidade e legado em faixas como 'Lazarus' e a épica 'Blackstar'. É uma despedida ousada e brilhante de um dos maiores visionários da música.">
+                <img src="bowie.jpg" alt="Blackstar">
+                <p>Blackstar - David Bowie</p>
+            </div>
+            <div class="album" data-description="Twin Fantasy (Face to Face) - Car Seat Headrest: Este álbum revisita e reformula um projeto anterior da banda, apresentando uma narrativa emocional sobre amor, obsessão e juventude. Misturando lo-fi e indie rock com produção aprimorada, faixas como 'Bodys' e 'Beach Life-in-Death' capturam a energia crua e vulnerável que define o som único do grupo.">
+                <img src="Twin_fantasy_face_to_face.jpg" alt="Twin Fantasy">
+                <p>Twin Fantasy (Face to Face) - Car Seat Headrest</p>
+            </div>
+            <div class="album" data-description="The Record - Boygenius: 'The Record' é uma colaboração entre Julien Baker, Phoebe Bridgers e Lucy Dacus, que combina as forças de três grandes talentos do indie rock. O álbum é íntimo e profundamente pessoal, com harmonias sublimes e letras introspectivas. Faixas como 'Not Strong Enough' equilibram melodia e emoção com maestria.">
+                <img src="Boygenius_-_the_record.jpg" alt="The Record">
+                <p>The Record - Boygenius</p>
+            </div>
+            <div class="album" data-description="Slowdive - Slowdive: Este álbum homónimo marca o regresso da banda ao shoegaze, misturando camadas sonoras densas com melodias melancólicas. Slowdive cria paisagens sonoras etéreas que evocam introspeção e nostalgia, com faixas como 'Sugar for the Pill' a destacarem-se como momentos hipnotizantes e emotivos.">
+                <img src="slow.jpg" alt="Slowdive">
+                <p>Slowdive - Slowdive</p>
+            </div>
+            <div class="album" data-description="AM - Arctic Monkeys: 'AM' é um dos álbuns mais bem-sucedidos dos Arctic Monkeys, com uma mistura de rock alternativo e influências de R&B e hip-hop. Faixas como 'Do I Wanna Know?' e 'R U Mine?' mostram letras inteligentes e arranjos cativantes, enquanto o álbum explora temas de desejo, solidão e noites longas. A produção é polida e irresistível.">
+                <img src="artic monkeys.jpeg" alt="AM">
+                <p>AM - Arctic Monkeys</p>
+            </div>
+            <div class="album" data-description="Modern Vampires of the City - Vampire Weekend: Este álbum apresenta uma abordagem sofisticada ao indie rock, misturando letras poéticas e arranjos complexos. Com influências de música barroca e sons globais, faixas como 'Step' e 'Hannah Hunt' exploram temas de fé, mortalidade e o peso do tempo. É um trabalho coeso e inovador.">
+                <img src="vampire.jpg" alt="Modern Vampires of the City">
+                <p>Modern Vampires of the City - Vampire Weekend</p>
+            </div>
+            <div class="album" data-description="Let’s Start Here - Lil Yachty: Neste projeto, Lil Yachty faz uma transição surpreendente para o rock psicadélico, com uma abordagem ousada e experimental. 'Let’s Start Here' é uma viagem sonora que mistura sintetizadores espaciais, guitarras e uma produção envolvente. Faixas como 'the BLACK seminole.' mostram o alcance artístico e a visão do rapper neste novo território.">
+                <img src="lil yatchy.jpg" alt="Let’s Start Here">
+                <p>Let’s Start Here - Lil Yachty</p>
+            </div>
+            <div class="album" data-description="This Is Why - Paramore: 'This Is Why' marca o retorno de Paramore com uma abordagem mais madura ao rock alternativo. O álbum explora temas de ansiedade, adaptação e resiliência, com faixas como 'This Is Why' e 'Running Out of Time' a oferecerem uma mistura de intensidade e melodia. É um álbum que equilibra introspeção com energia.">
+                <img src="paramore.jpg" alt="This Is Why">
+                <p>This Is Why - Paramore</p>
+            </div>
+            <div class="album" data-description="Heaven to a Tortured Mind - Yves Tumor: Este álbum é uma fusão de glam rock, soul e experimentalismo, com Yves Tumor a desafiar géneros e criar algo verdadeiramente único. Faixas como 'Gospel for a New Century' são grandiosas e emocionais, enquanto outras exploram vulnerabilidade e desejo. A produção é arrojada e teatral.">
+                <img src="yves.jpg" alt="Heaven to a Tortured Mind">
+                <p>Heaven to a Tortured Mind - Yves Tumor</p>
+            </div>
+            <div class="album" data-description="To Be Kind - Swans: 'To Be Kind' é uma obra-prima do rock experimental, com faixas longas e intensas que exploram a repetição e o crescendo. O álbum é visceral e hipnótico, abordando temas de humanidade e transcendência. Faixas como 'Bring the Sun / Toussaint L’Ouverture' mostram a capacidade de Swans de criar experiências sonoras arrebatadoras.">
+                <img src="swans.jpg" alt="To Be Kind">
+                <p>To Be Kind - Swans</p>
+            </div>
+            <div class="album" data-description="Puberty 2 - Mitski: Neste álbum, Mitski explora os conflitos emocionais de crescimento e identidade. 'Puberty 2' combina rock alternativo com influências de indie e pop, criando faixas intensamente pessoais como 'Your Best American Girl' e 'I Bet on Losing Dogs'. As letras sinceras e a produção dinâmica tornam o álbum um marco no género.">
+                <img src="mitski.jpg" alt="Puberty 2">
+                <p>Puberty 2 - Mitski</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

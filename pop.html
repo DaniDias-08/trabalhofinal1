@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="theme-toggle">
+            <button id="themeToggle">🌙</button>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="rap.html">Rap</a></li>
+                <li><a href="rnb.html">R&B</a></li>
+                <li><a href="rock.html">Rock</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="genre">
+        <h2>Pop</h2>
+        <div class="genre-description-container">
+            <div class="genre-box">
+                <p class="genre-description">
+                    O pop é o género mais universal da música, conhecido pela sua acessibilidade e apelo imediato. Caracteriza-se por melodias cativantes, 
+                    refrões memoráveis e produções polidas. Desde baladas emotivas até hinos dançantes, o pop adapta-se a tendências culturais e sonoras, 
+                    abraçando influências de outros géneros como eletrónica, R&B e até hip-hop. O objetivo do pop é conectar emocionalmente com uma ampla 
+                    audiência, tornando-o o coração da música comercial contemporânea.
+                </p>
+            </div>
+        </div>
+        <div class="album-display">
+            <div class="album-info">
+                <h3 id="album-title">Clique em um álbum para ver mais detalhes</h3>
+                <p id="album-description"></p>
+            </div>
+        </div>
+        <!-- Grid de Álbuns -->
+        <div class="album-grid">
+            <div class="album" data-title="After Hours - The Weeknd" data-description="*After Hours* é uma viagem sonora e emocional que combina pop, synthwave e R&B num pacote coeso e cinematográfico. O álbum explora temas de solidão, arrependimento e auto-descoberta, tudo envolto numa produção inspirada nos anos 80. Hits como 'Blinding Lights' e 'Save Your Tears' destacam a capacidade de The Weeknd de criar melodias infecciosas e atmosferas nostálgicas, enquanto faixas mais introspectivas como 'Snowchild' mostram um lado vulnerável do artista." data-cover="weeknd.png">
+                <img src="weeknd.png" alt="After Hours">
+                <p>After Hours - The Weeknd</p>
+            </div>
+            <div class="album" data-title="BRAT - Charli XCX" data-description="*BRAT* é um projeto experimental e ousado que reafirma Charli XCX como uma pioneira do pop alternativo. O álbum mistura batidas eletrónicas, produção vanguardista e letras provocadoras que desafiam convenções. Temas de liberdade, auto-expressão e hedonismo permeiam as músicas, com uma abordagem descomprometida que celebra o caos criativo." data-cover="Charli_XCX_-_Brat_album_cover.png">
+                <img src="Charli_XCX_-_Brat_album_cover.png" alt="BRAT">
+                <p>BRAT - Charli XCX</p>
+            </div>
+            <div class="album" data-title="Lemonade - Beyoncé" data-description="*Lemonade* é uma obra-prima multifacetada que combina pop, R&B, soul, hip-hop e até country para contar uma história de dor, traição, amor e empoderamento. Beyoncé apresenta uma narrativa emocional poderosa, explorando questões de identidade, feminismo e cultura afro-americana. Com faixas icónicas como 'Formation' e 'Hold Up', o álbum destaca-se tanto pela sua produção inovadora quanto pela profundidade das suas letras." data-cover="Capa_de_Lemonade.png">
+                <img src="Capa_de_Lemonade.png" alt="Lemonade">
+                <p>Lemonade - Beyoncé</p>
+            </div>
+            <div class="album" data-title="Norman Fucking Rockwell! - Lana Del Rey" data-description="Este álbum de Lana Del Rey é uma meditação melancólica sobre amor, desilusão e o sonho americano. Com uma produção que mistura pop barroco e influências vintage, *Norman Fucking Rockwell!* apresenta faixas como 'Mariners Apartment Complex' e 'Venice Bitch', que mostram o lirismo poético e a entrega vocal etérea de Lana. É um trabalho intimista e sofisticado que solidifica a sua posição como uma das artistas mais singulares do pop contemporâneo." data-cover="Lana-del-Rey-Norman-Fucking-Rockwell.jpg">
+                <img src="Lana-del-Rey-Norman-Fucking-Rockwell.jpg" alt="Norman Fucking Rockwell!">
+                <p>Norman Fucking Rockwell! - Lana Del Rey</p>
+            </div>
+            <div class="album" data-title="Melodrama - Lorde" data-description="*Melodrama* é um álbum conceptual que explora as emoções e complexidades de um coração partido. Lorde combina pop eletrónico com lirismo introspectivo, criando faixas que vão do exuberante ('Green Light') ao melancólico ('Liability'). A produção é rica e emotiva, refletindo a jornada de auto-descoberta da artista após o fim de um relacionamento." data-cover="Lorde_-_Melodrama.png">
+                <img src="Lorde_-_Melodrama.png" alt="Melodrama">
+                <p>Melodrama - Lorde</p>
+            </div>
+            <div class="album" data-title="MAGDALENE - FKA Twigs" data-description="*MAGDALENE* é um álbum profundamente pessoal que combina R&B alternativo, arte eletrónica e elementos barrocos. FKA twigs usa a sua voz delicada e produção experimental para abordar temas como vulnerabilidade, força e redenção. Faixas como 'Cellophane' são emocionalmente devastadoras, enquanto outras, como 'Sad Day', mostram a sua habilidade de criar atmosferas únicas e imersivas." data-cover="FKATwigs_Magdalene.png">
+                <img src="FKATwigs_Magdalene.png" alt="MAGDALENE">
+                <p>MAGDALENE - FKA Twigs</p>
+            </div>
+            <div class="album" data-title="FETCH THE BOLT CUTTERS - Fiona Apple" data-description="Este álbum de Fiona Apple é uma celebração da liberdade criativa e emocional. Com uma produção minimalista e crua, *FETCH THE BOLT CUTTERS* é repleto de percussões improvisadas e letras afiadas que abordam temas de autonomia, injustiça e cura. Faixas como 'Shameika' e 'Heavy Balloon' destacam a originalidade e profundidade da artista, tornando o álbum uma das obras mais distintas do pop alternativo." data-cover="fiona aple.jpg">
+                <img src="fiona aple.jpg" alt="FETCH THE BOLT CUTTERS">
+                <p>FETCH THE BOLT CUTTERS - Fiona Apple</p>
+            </div>
+            <div class="album" data-title="Desire, I Want To Turn Into You - Caroline Polachek" data-description="Caroline Polachek explora as fronteiras do pop com *Desire, I Want To Turn Into You*. O álbum é uma mistura de melodias envolventes, produção experimental e letras que exploram desejo e transformação pessoal. Faixas como 'Bunny Is a Rider' mostram a sua capacidade de criar hinos cativantes e enigmáticos." data-cover="caroline.jpg">
+                <img src="caroline.jpg" alt="Desire, I Want To Turn Into You">
+                <p>Desire, I Want To Turn Into You - Caroline Polachek</p>
+            </div>
+            <div class="album" data-title="Future Nostalgia - Dua Lipa" data-description="*Future Nostalgia* é uma homenagem moderna ao disco e pop dos anos 80, com um toque contemporâneo. Dua Lipa combina batidas dançantes e letras confiantes para criar um álbum repleto de energia. Hits como 'Don't Start Now' e 'Levitating' são provas da sua habilidade de dominar as pistas de dança, enquanto a produção impecável mantém uma coesão temática ao longo do álbum." data-cover="dua lipa.jpg">
+                <img src="dua lipa.jpg" alt="Future Nostalgia">
+                <p>Future Nostalgia - Dua Lipa</p>
+            </div>
+            <div class="album" data-title="Happier Than Ever - Billie Eilish" data-description="Este segundo álbum de Billie Eilish apresenta uma abordagem mais madura e introspectiva. *Happier Than Ever* mistura baladas suaves e explosões emocionais, com faixas como 'Your Power' e a épica 'Happier Than Ever'. As letras abordam temas como abuso de poder, crescimento pessoal e autoconfiança, enquanto a produção minimalista de Finneas realça a vulnerabilidade da voz de Billie." data-cover="Happier_Than_Ever_album_-_Billie_Eilish.png">
+                <img src="Happier_Than_Ever_album_-_Billie_Eilish.png" alt="Happier Than Ever">
+                <p>Happier Than Ever - Billie Eilish</p>
+            </div>
+            <div class="album" data-title="Titanic Rising - Weyes Blood" data-description="*Titanic Rising* é um álbum deslumbrante que mistura pop orquestral, folk e soft rock. Weyes Blood reflete sobre questões de amor, tempo e apocalipse ambiental com uma produção majestosa. Faixas como 'Andromeda' e 'Movies' destacam o seu lirismo introspectivo e vocais etéreos, criando um álbum que é tanto um comentário sobre a modernidade quanto uma experiência emocional intemporal." data-cover="blood.jpg">
+                <img src="blood.jpg" alt="Titanic Rising">
+                <p>Titanic Rising - Weyes Blood</p>
+            </div>
+            <div class="album" data-title="Anti - Rihanna" data-description="*Anti* é um marco na carreira de Rihanna, mostrando a sua evolução artística e vontade de experimentar. O álbum mistura R&B, pop, soul e elementos eletrónicos, com faixas que variam entre o intimista ('Higher') e o cativante ('Work'). A produção diversificada e as letras sinceras fazem de *Anti* um álbum que desafia expectativas e celebra a individualidade." data-cover="Rihanna_-_Anti.png">
+                <img src="Rihanna_-_Anti.png" alt="Anti">
+                <p>Anti - Rihanna</p>
+            </div>
+            <div class="album" data-title="Guts - Olivia Rodrigo" data-description="Neste segundo álbum, Olivia Rodrigo refina o seu estilo pop-rock confessional. *Guts* é um trabalho cheio de emoções cruas, com faixas que exploram o amor, a dor e a juventude. Canções como 'Vampire' e 'Bad Idea Right?' mostram a sua habilidade de capturar sentimentos complexos em melodias cativantes." data-cover="Guts_Olivia_Rodrigo.png">
+                <img src="Olivia_Rodrigo_-_Guts.png" alt="Guts">
+                <p>Guts - Olivia Rodrigo</p>
+            </div>
+            <div class="album" data-title="Harry’s House - Harry Styles" data-description="*Harry's House* é um álbum aconchegante e introspectivo, com Harry Styles a explorar sonoridades de pop, funk e soft rock. Faixas como 'As It Was' mostram a sua habilidade para criar hits radiofónicos, enquanto outras, como 'Matilda', oferecem momentos de vulnerabilidade emocional." data-cover="harry house.jpg">
+                <img src="Harry_Styles_-_Harrys_House.png" alt="Harry’s House">
+                <p>Harry’s House - Harry Styles</p>
+            </div>
+            <div class="album" data-title="Thank U, Next - Ariana Grande" data-description="*Thank U, Next* é um álbum confessional que reflete sobre perdas, amor e crescimento pessoal. Ariana Grande mistura pop, R&B e influências trap para criar faixas como '7 rings' e 'thank u, next', que são tanto hinos de auto-empoderamento quanto reflexões sinceras sobre os altos e baixos da vida." data-cover="thankunext.jpg">
+                <img src="ariana.jpg" alt="Thank U, Next">
+                <p>Thank U, Next - Ariana Grande</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

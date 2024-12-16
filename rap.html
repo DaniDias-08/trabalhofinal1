@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rap</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="theme-toggle">
+            <button id="themeToggle">🌙</button>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pop.html">Pop</a></li>
+                <li><a href="rnb.html">R&B</a></li>
+                <li><a href="rock.html">Rock</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="genre">
+        <h2>Rap</h2>
+        <div class="genre-description-container">
+            <div class="genre-box">
+                <p class="genre-description">
+                    O rap é um género musical que combina ritmo, poesia e storytelling. Nascido nas comunidades afro-americanas nos anos 70, 
+                    o rap tornou-se uma força cultural global, expressando identidade, resistência e experiência pessoal. A batida característica, 
+                    os samples criativos e o flow dos artistas são elementos fundamentais. Os subgéneros variam desde o boom bap clássico até ao 
+                    trap moderno, enquanto as letras abordam desde questões sociais até introspeções emocionais e celebrações de estilo de vida. 
+                    O rap é uma arte viva, em constante evolução.
+                </p>
+            </div>
+        </div>
+
+        <div class="album-display">
+            <div class="album-info">
+                <h3 id="album-title">Clica num álbum para ver mais detalhes</h3>
+                <p id="album-description"></p>
+            </div>
+        </div>
+
+        <!-- Grid de Álbuns -->
+        <div class="album-grid">
+            <div class="album" data-title="Astroworld - Travis Scott" data-description="Astroworld é uma viagem sónica e emocional com produção elaborada e atmosferas hipnóticas, explorando temas de sucesso e introspeção." data-cover="travis.jpg">
+                <img src="travis.jpg" alt="Astroworld">
+                <p>Astroworld - Travis Scott</p>
+            </div>
+            <div class="album" data-title="DAMN - Kendrick Lamar" data-description="DAMN apresenta dilemas morais e espirituais com uma produção versátil e letras que convidam à reflexão profunda." data-cover="Kendrick_Lamar_-_Damn.png">
+                <img src="Kendrick_Lamar_-_Damn.png" alt="DAMN">
+                <p>DAMN - Kendrick Lamar</p>
+            </div>
+            <div class="album" data-title="HEROES & VILLAINS - Metro Boomin" data-description="Um álbum conceptual inspirado em histórias de heróis e vilões, com batidas intensas e colaborações de peso." data-cover="heroes.jpg">
+                <img src="heroes.jpg" alt="HEROES & VILLAINS">
+                <p>HEROES & VILLAINS - Metro Boomin</p>
+            </div>
+            <div class="album" data-title="Goodbye & Good Riddance - Juice WRLD" data-description="Este álbum emo-rap aborda o amor, os vícios e a saúde mental de forma vulnerável e emocional." data-cover="juice.jpg">
+                <img src="juice.jpg" alt="Goodbye & Good Riddance">
+                <p>Goodbye & Good Riddance - Juice WRLD</p>
+            </div>
+            <div class="album" data-title="Beerbongs & Bentleys - Post Malone" data-description="Uma fusão de rap, pop e rock, explorando a dualidade entre fama e solidão com melodias infecciosas." data-cover="post malone.jpg">
+                <img src="post malone.jpg" alt="Beerbongs & Bentleys">
+                <p>Beerbongs & Bentleys - Post Malone</p>
+            </div>
+            <div class="album" data-title="The Forever Story - J.I.D" data-description="Uma jornada pessoal, abordando a infância, família e ambição com lirismo detalhado e produção dinâmica." data-cover="j.i.d.jpg">
+                <img src="j.i.d.jpg" alt="The Forever Story">
+                <p>The Forever Story - J.I.D</p>
+            </div>
+            <div class="album" data-title="Donda - Kanye West" data-description="Uma homenagem espiritual e familiar com produção cinematográfica e colaborações marcantes." data-cover="kanye.png">
+                <img src="kanye.png" alt="Donda">
+                <p>Donda - Kanye West</p>
+            </div>
+            <div class="album" data-title="Igor - Tyler, The Creator" data-description="Uma obra conceptual sobre o amor e o desgosto, misturando hip-hop, soul e produção teatral." data-cover="tyler.jpg">
+                <img src="tyler.jpg" alt="Igor">
+                <p>Igor - Tyler, The Creator</p>
+            </div>
+            <div class="album" data-title="Heaven or Hell - Don Toliver" data-description="Explora prazeres terrenos e reflexões existenciais com produção etérea e letras introspectivas." data-cover="don toliver.jpg">
+                <img src="don toliver.jpg" alt="Heaven or Hell">
+                <p>Heaven or Hell - Don Toliver</p>
+            </div>
+            <div class="album" data-title="Whole Lotta Red - Playboi Carti" data-description="Uma estética punk e energia visceral que desafia convenções tradicionais do rap." data-cover="carti.png">
+                <img src="carti.png" alt="Whole Lotta Red">
+                <p>Whole Lotta Red - Playboi Carti</p>
+            </div>
+            <div class="album" data-title="Circles - Mac Miller" data-description="Um álbum introspectivo e melancólico, explorando crescimento pessoal e aceitação." data-cover="mac.jpg">
+                <img src="mac.jpg" alt="Circles">
+                <p>Circles - Mac Miller</p>
+            </div>
+            <div class="album" data-title="American Dream - 21 Savage" data-description="Reflexões sobre o sonho americano e a desigualdade, com produção sombria e letras intensas." data-cover="21.jpg">
+                <img src="21.jpg" alt="American Dream">
+                <p>American Dream - 21 Savage</p>
+            </div>
+            <div class="album" data-title="AT. LONG. LAST. A$AP - A$AP Rocky" data-description="Uma mistura de trap, psicadelia e introspeção, com produção rica e diversificada." data-cover="asap.jpg">
+                <img src="asap.jpg" alt="AT. LONG. LAST. A$AP">
+                <p>AT. LONG. LAST. A$AP - A$AP Rocky</p>
+            </div>
+            <div class="album" data-title="The Melodic Blue - Baby Keem" data-description="Um álbum inovador, misturando lirismo afiado com produção experimental e introspeção." data-cover="baby keem.jpg">
+                <img src="baby keem.jpg" alt="The Melodic Blue">
+                <p>The Melodic Blue - Baby Keem</p>
+            </div>
+            <div class="album" data-title="WE DON’T TRUST YOU - Future & Metro Boomin" data-description="Exploração sombria do mundo do trap, abordando confiança, traição e sobrevivência." data-cover="future.jpg">
+                <img src="future.jpg" alt="WE DON’T TRUST YOU">
+                <p>WE DON’T TRUST YOU - Future & Metro Boomin</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

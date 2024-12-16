@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R&B</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="theme-toggle">
+            <button id="themeToggle">🌙</button>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="rap.html">Rap</a></li>
+                <li><a href="pop.html">Pop</a></li>
+                <li><a href="rock.html">Rock</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="genre">
+        <h2>R&B</h2>
+        <div class="genre-description-container">
+            <div class="genre-box">
+                <p class="genre-description">
+                    O R&B, ou rhythm and blues, é um género que combina emoção e groove. Originado na década de 1940, evoluiu para incorporar 
+                    elementos de soul, funk, pop e hip-hop. Caracteriza-se por vocais emotivos, ritmos sensuais e letras que exploram amor, 
+                    perda e vulnerabilidade. O R&B moderno é conhecido por suas produções sofisticadas e mistura de influências eletrónicas 
+                    e acústicas, mantendo sempre o foco na expressão emocional.
+                </p>
+            </div>
+        </div>
+        <div class="album-display">
+            <div class="album-info">
+                <h3 id="album-title">Clique em um álbum para ver mais detalhes</h3>
+                <p id="album-description"></p>
+            </div>
+        </div>
+        <div class="album-grid">
+            <div class="album" data-description="Blonde - Frank Ocean: 'Blonde' é um dos álbuns mais icónicos do R&B alternativo, marcado pela sua introspeção e experimentalismo. Frank Ocean utiliza vocais etéreos e uma produção minimalista para explorar temas como identidade, amor, perda e espiritualidade. Faixas como 'Nights' e 'Self Control' misturam melodia e lirismo poético, enquanto o uso de texturas e camadas sonoras cria uma experiência quase transcendental. É uma obra profundamente emocional e inovadora que desafia convenções do género.">
+                <img src="frank ocean.jpg" alt="Blonde">
+                <p>Blonde - Frank Ocean</p>
+            </div>
+            <div class="album" data-description="SOS - SZA: Em 'SOS', SZA oferece um retrato honesto e multifacetado das suas emoções e experiências. O álbum funde R&B, pop e hip-hop, destacando a sua voz distinta e letras confessionais. Com temas que vão de inseguranças e relacionamentos complicados ('Kill Bill') a auto-descoberta e força pessoal, 'SOS' consolida SZA como uma das vozes mais influentes da música contemporânea.">
+                <img src="sza.jpg" alt="SOS">
+                <p>SOS - SZA</p>
+            </div>
+            <div class="album" data-description="Wasteland - Brent Faiyaz: 'Wasteland' é um mergulho profundo na psique de Brent Faiyaz, abordando temas como ego, luxúria e isolamento. A produção sofisticada e melancólica complementa as suas letras introspectivas e vulneráveis. Faixas como 'All Mine' e 'Dead Man Walking' mostram a sua habilidade de criar atmosferas densas e cativantes, enquanto as colaborações adicionam camadas adicionais ao álbum.">
+                <img src="wasteland.jpg" alt="Wasteland">
+                <p>Wasteland - Brent Faiyaz</p>
+            </div>
+            <div class="album" data-description="An Evening with Silk Sonic - Bruno Mars & Anderson .Paak: Este projeto colaborativo celebra a nostalgia do R&B dos anos 70, com influências de soul e funk. Bruno Mars e Anderson .Paak criam um álbum repleto de charme, humor e melodias cativantes. Faixas como 'Leave The Door Open' e 'Skate' são irresistivelmente suaves, enquanto a produção luxuosa evoca a era dourada da música soul.">
+                <img src="bruno mars.jpg" alt="An Evening with Silk Sonic">
+                <p>An Evening with Silk Sonic - Bruno Mars & Anderson .Paak</p>
+            </div>
+            <div class="album" data-description="Never Enough - Daniel Caesar: Daniel Caesar explora os altos e baixos do amor em 'Never Enough', um álbum que combina harmonias suaves com produção moderna e intimista. Temas como vulnerabilidade, conexão e crescimento pessoal são apresentados em faixas como 'Do You Like Me?' e 'Valentina', destacando o seu lirismo refinado e arranjos elegantes.">
+                <img src="caeser.jpg" alt="Never Enough">
+                <p>Never Enough - Daniel Caesar</p>
+            </div>
+            <div class="album" data-description="Lahai - Sampha: 'Lahai' marca o regresso de Sampha com uma obra profundamente emocional e experimental. O álbum mistura R&B, soul e elementos eletrónicos, com letras introspectivas que abordam perda, cura e identidade. Faixas como 'Spirit 2.0' mostram a sua capacidade de criar paisagens sonoras únicas, enquanto a sua voz expressiva permanece no centro da experiência.">
+                <img src="sampha.jpg" alt="Lahai">
+                <p>Lahai - Sampha</p>
+            </div>
+            <div class="album" data-description="A Seat at the Table - Solange: Este álbum é tanto uma obra de arte quanto um manifesto social. 'A Seat at the Table' aborda questões de identidade racial, empoderamento e cura emocional. Solange mistura R&B, soul e jazz numa produção delicada e atmosférica, com faixas como 'Cranes in the Sky' a refletirem a sua vulnerabilidade e força. É um álbum tanto para contemplação pessoal quanto para discussão social.">
+                <img src="solange.jpg" alt="A Seat at the Table">
+                <p>A Seat at the Table - Solange</p>
+            </div>
+            <div class="album" data-description="Dirty Computer - Janelle Monáe: 'Dirty Computer' é um álbum conceptual que explora identidade, sexualidade e liberdade num contexto futurista e rebelde. Janelle Monáe mistura R&B, pop e funk em faixas como 'Make Me Feel' e 'PYNK', celebrando a diversidade e o poder individual. A produção é ousada e inovadora, refletindo a visão única da artista.">
+                <img src="monae.jpg" alt="Dirty Computer">
+                <p>Dirty Computer - Janelle Monáe</p>
+            </div>
+            <div class="album" data-description="Isolation - Kali Uchis: 'Isolation' é uma fusão rica de R&B, soul, reggaeton e pop, com Kali Uchis a criar um álbum que é simultaneamente eclético e coeso. Temas de independência, amor e sensualidade permeiam faixas como 'After The Storm' e 'Tyrant', enquanto a produção multicultural reflete as suas influências globais.">
+                <img src="iso.jpg" alt="Isolation">
+                <p>Isolation - Kali Uchis</p>
+            </div>
+            <div class="album" data-description="Awaken, My Love! - Childish Gambino: Neste álbum, Childish Gambino adota uma abordagem retro-futurista, misturando R&B, funk e soul psicadélico. Faixas como 'Redbone' destacam a sua capacidade vocal e a produção rica, enquanto o álbum como um todo é uma exploração ousada de sonoridades nostálgicas com uma visão moderna.">
+                <img src="gambino.jpg" alt="Awaken, My Love!">
+                <p>Awaken, My Love! - Childish Gambino</p>
+            </div>
+            <div class="album" data-description="Raven - Kelela: 'Raven' é uma obra de R&B alternativo e eletrónica, com Kelela a explorar temas de vulnerabilidade e resiliência. A produção atmosférica e futurista complementa as suas letras introspectivas e a sua voz etérea. É um álbum que desafia convenções e convida à imersão.">
+                <img src="kelela.jpg" alt="Raven">
+                <p>Raven - Kelela</p>
+            </div>
+            <div class="album" data-description="My 21st Century Blues - Raye: Neste álbum, Raye revela uma abordagem honesta e emocional, misturando R&B, soul e pop para explorar temas como superação, identidade e liberdade pessoal. Faixas como 'Escapism' mostram a sua habilidade de criar músicas que são tanto confessionais quanto cativantes.">
+                <img src="ray.png" alt="My 21st Century Blues">
+                <p>My 21st Century Blues - Raye</p>
+            </div>
+            <div class="album" data-description="You Can’t Kill Me - 070 Shake: 'You Can’t Kill Me' é uma exploração profundamente emocional e experimental de 070 Shake, misturando R&B, eletrónica e pop alternativo. O álbum aborda temas de vulnerabilidade, transcendência e ligação humana, com uma produção atmosférica que realça a intensidade das letras.">
+                <img src="070.jpg" alt="You Can't Kill Me">
+                <p>You Can't Kill Me - 070 Shake</p>
+            </div>
+            <div class="album" data-description="Earth - SAULT: 'Earth' é um álbum que mistura R&B, gospel, soul e afrobeat, com uma abordagem que celebra espiritualidade, resistência e comunidade. A produção é expansiva e orgânica, e cada faixa é uma reflexão sobre humanidade e conexão universal.">
+                <img src="earth.jpg" alt="Earth">
+                <p>Earth - SAULT</p>
+            </div>
+            <div class="album" data-description="Hypnos - Ravyn Lenae: 'Hypnos' é um álbum sofisticado e atmosférico que combina R&B com elementos de soul psicadélico e eletrónica. Ravyn Lenae usa a sua voz angelical para explorar temas de amor, identidade e auto-reflexão, criando uma experiência sonora que é tão etérea quanto emocional.">
+                <img src="lenae.jpg" alt="Hypnos">
+                <p>Hypnos - Ravyn Lenae</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
